@@ -1,2 +1,4 @@
 # Mastermind-Jogo
-Trabalho do joguinho
+
+
+## Requisitos Funcionais
