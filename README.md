@@ -11,12 +11,35 @@ O programa deve mostrar quantas tentativas o jogador tem, se a tentativa é vál
 O programa deve guardar o código secreto, o número de tentativas restantes do jogador, o número escolhido pelo jogador,  
 O programa deve terminar quando o numero de tentativas esgotar, caso o jogador descubra o código, caso o jogador desista
 
-O jogador precisa de introduzir o nome? não é necessário.
-O jogador escolhe uma opção de menu? sim, o jogador vai precisará fazer algumas escolhas durante o decorrer do jogo.
-Como introduz uma tentativa? O jogador vai digitar um valor pedido correspondente ao código, que será introduzido em uma variável "tentativa".
-Que valores são aceitos numa tentativa? O numero .
+5.1
+O jogador precisa de introduzir o nome? 
+Não. O jogo pode funcionar sem nome do jogador 
+O jogador escolhe uma opção de menu? 
+sim, o jogador vai precisará fazer algumas escolhas durante o decorrer do jogo como "inserir tentativas" e "desistir"
+Como introduz uma tentativa? 
+O jogador vai digitar um valor pedido correspondente ao código, que será introduzido em uma variável "tentativa".
+Que valores são aceitos numa tentativa? 
+Os valores aceitos numa tentativa são números inteiros, valores enntre 1 e 6, exatamente 4 numeros
+Que valores devem ser recusados? 
+Os valores recusados em uma tentativa são numeros menores que 1, numeros maiores que 6, numeros repetidos, letras e simbolos, menos ou mais do que 4 numeros
 
-Que valores devem ser recusados?
+5.2 Responde:
+
+Que mensagem aparece no início do jogo?
+" Bem vindo ao jogo Mastermind numérico "
+Como o programa mostra as tentativas já feitas?
+"Tentativas usadas 3/10"
+Como mostra os valores certos na posição certa?
+"Valores na posição certa: 2 "
+Como mostra os valores certos na posição errada?
+"Valores certos na posição errada"
+Que mensagem aparece em caso de vitória?
+"Parabéns!! Descobriste o código secreto"
+Que mensagem aparece em caso de derrota?
+"Fim do jogo. Gastaste todas as tentativas"
+Que mensagem aparece em caso de desistência?
+"Jogo terminado por desistência" 
+
 
 Etapas:
 
@@ -32,4 +55,5 @@ Etapas:
 10	Implementar ciclo do jogo	
 11	Implementar final do jogo vitória, derrota e desistência	
 12	Testar o programa	
-14	Preparar entrega
+13	Preparar entrega
+
