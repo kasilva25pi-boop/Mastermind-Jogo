@@ -42,18 +42,38 @@
 ## 5.2 
 
 - Que mensagem aparece no início do jogo?
-- " Bem vindo ao jogo Mastermind numérico "
+
+
+" Bem vindo ao jogo Mastermind numérico "
+
 - Como o programa mostra as tentativas já feitas?
-- "Tentativas usadas 3/10"
+
+
+"Tentativas usadas 3/10"
+
 - Como mostra os valores certos na posição certa?
-- "Valores na posição certa: 2 "
+
+
+ "Valores na posição certa: 2 "
+
 - Como mostra os valores certos na posição errada?
-- "Valores certos na posição errada"
+
+
+"Valores certos na posição errada"~
+
 - Que mensagem aparece em caso de vitória?
-- "Parabéns!! Descobriste o código secreto"
+
+
+"Parabéns!! Descobriste o código secreto"
+
 - Que mensagem aparece em caso de derrota?
-- "Fim do jogo. Gastaste todas as tentativas"
+
+
+"Fim do jogo. Gastaste todas as tentativas"
+
 - Que mensagem aparece em caso de desistência?
+
+
 "Jogo terminado por desistência" 
 
 ## 6.1
