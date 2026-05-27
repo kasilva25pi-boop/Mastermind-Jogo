@@ -11,7 +11,7 @@ O programa deve mostrar quantas tentativas o jogador tem, se a tentativa é vál
 O programa deve guardar o código secreto, o número de tentativas restantes do jogador, o número escolhido pelo jogador,  
 O programa deve terminar quando o numero de tentativas esgotar, caso o jogador descubra o código, caso o jogador desista
 
-5.1
+## 5.1
 O jogador precisa de introduzir o nome? 
 Não. O jogo pode funcionar sem nome do jogador 
 O jogador escolhe uma opção de menu? 
@@ -23,7 +23,7 @@ Os valores aceitos numa tentativa são números inteiros, valores enntre 1 e 6, 
 Que valores devem ser recusados? 
 Os valores recusados em uma tentativa são numeros menores que 1, numeros maiores que 6, numeros repetidos, letras e simbolos, menos ou mais do que 4 numeros
 
-5.2 Responde:
+## 5.2 
 
 Que mensagem aparece no início do jogo?
 " Bem vindo ao jogo Mastermind numérico "
@@ -41,19 +41,19 @@ Que mensagem aparece em caso de desistência?
 "Jogo terminado por desistência" 
 
 
-Etapas:
+## Etapas:
 
-1	Compreender o problema	
-2	Identificar requisitos
-3	Definir entradas e saídas	
-4	Escolher estruturas de dados
-5	Planear funções	
-6	Criar estrutura base do código	
-7	Implementar leitura e validação	
-8	Implementar comparação	
-9	Guardar 
-10	Implementar ciclo do jogo	
-11	Implementar final do jogo vitória, derrota e desistência	
-12	Testar o programa	
-13	Preparar entrega
+1 - Compreender o problema	
+2 -	Identificar requisitos
+3 - Definir entradas e saídas	
+4 - Escolher estruturas de dados
+5 - Planear funções	
+6 - Criar estrutura base do código	
+7 - Implementar leitura e validação	
+8 - Implementar comparação	
+9 - Guardar 
+10 - Implementar ciclo do jogo	
+11 - Implementar final do jogo vitória, derrota e desistência	
+12 - Testar o programa	
+13 - Preparar entrega
 
