@@ -1,6 +1,22 @@
 # Mastermind-Jogo
 
 
+## Etapas:
+
+- Compreender o problema	
+- Identificar requisitos
+- Definir entradas e saídas	 
+- Escolher estruturas de dados
+- Planear funções	
+- Criar estrutura base do código	
+- Implementar leitura e validação	
+- Implementar comparação	
+- Guardar 
+- Implementar ciclo do jogo	
+- Implementar final do jogo vitória, derrota e desistência	
+- Testar o programa	
+- Preparar entrega
+
 ## Requisitos Funcionais 
 - O programa deve começar por definir o código
 - O programa deve permitir ao jogador que decida se quer realizar uma tentativa, desistir e escolher um número 
@@ -38,22 +54,10 @@
 - Que mensagem aparece em caso de derrota?
 - "Fim do jogo. Gastaste todas as tentativas"
 - Que mensagem aparece em caso de desistência?
-- "Jogo terminado por desistência" 
+"Jogo terminado por desistência" 
+
+## 6.1
 
 
-## Etapas:
 
-- Compreender o problema	
--	Identificar requisitos
-- Definir entradas e saídas	 
-- Escolher estruturas de dados
-- Planear funções	
-- Criar estrutura base do código	
-- Implementar leitura e validação	
-- Implementar comparação	
-- Guardar 
-- Implementar ciclo do jogo	
-- Implementar final do jogo vitória, derrota e desistência	
-- Testar o programa	
-- Preparar entrega
 
