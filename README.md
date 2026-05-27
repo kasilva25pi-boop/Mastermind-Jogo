@@ -29,15 +29,24 @@
 
 ## 5.1
 - O jogador precisa de introduzir o nome? 
-- Não. O jogo pode funcionar sem nome do jogador 
+
+Não. O jogo pode funcionar sem nome do jogador 
+
 - O jogador escolhe uma opção de menu? 
-- sim, o jogador vai precisará fazer algumas escolhas durante o decorrer do jogo como "inserir tentativas" e "desistir"
+
+sim, o jogador vai precisará fazer algumas escolhas durante o decorrer do jogo como "inserir tentativas" e "desistir"
+
 - Como introduz uma tentativa? 
-- O jogador vai digitar um valor pedido correspondente ao código, que será introduzido em uma variável "tentativa".
+
+O jogador vai digitar um valor pedido correspondente ao código, que será introduzido em uma variável "tentativa".
+
 - Que valores são aceitos numa tentativa? 
-- Os valores aceitos numa tentativa são números inteiros, valores enntre 1 e 6, exatamente 4 numeros
+
+Os valores aceitos numa tentativa são números inteiros, valores enntre 1 e 6, exatamente 4 numeros
+
 - Que valores devem ser recusados? 
-- Os valores recusados em uma tentativa são numeros menores que 1, numeros maiores que 6, numeros repetidos, letras e simbolos, menos ou mais do que 4 numeros
+
+ Os valores recusados em uma tentativa são numeros menores que 1, numeros maiores que 6, numeros repetidos, letras e simbolos, menos ou mais do que 4 numeros
 
 ## 5.2 
 
@@ -78,6 +87,55 @@
 
 ## 6.1
 
+Dados do código secreto
+Perguntas:
+
+- O código secreto tem quantos valores?
+
+O código tem 4 valores
+
+- Todos os valores são do mesmo tipo?
+
+Sim todos os valores são números inteiros
+
+- Faz sentido guardar o código secreto num array?
+
+Sim porque o array guarda vários valores do mesmo tipo e permite aceder facilmente as posições 
+
+## 6.2 Dados de uma tentativa
+Perguntas:
+
+- Uma tentativa tem os mesmos 4 valores do código secreto?
+
+Sim cada tentativa possui 4 numeros inteiros 
+
+- Além dos valores introduzidos, faz sentido guardar o resultado dessa tentativa?
+
+Sim, porque é importante quantos números estão na posição certa e quantos números estão na posição errada.
+
+- Que campos poderiam existir numa struct que representa uma tentativa?
+
+Uma struct de tentativa pode ter um array com os 4 números da tentativa; um campo para os valores certos na posição certa; um campo para os valores certos na posição errada.
+
+6.3 Dados do jogo
+Perguntas:
+
+- O programa precisa de guardar várias tentativas?
+
+
+Sim o programa tem de guardar todas as tentativas do jogador para ter um histórico de jogo
+
+- Como podes guardar um histórico de tentativas?
+
+O histórico pode ser guardado num array de struct Tentativa.
+
+- Que informação indica se o jogo ainda está a decorrer, terminou com vitória ou terminou com derrota?
+
+O programa precisa de guardar o estado atual do jogo, por exemplo: jogo em curso, vitória, derrota e desistência.  
+
+- Faz sentido usar um enum para representar o estado do jogo?
+
+Sim. Um enum ajuda a organizar melhor os estados do jogo e torna o código mais legível.
 
 
 
